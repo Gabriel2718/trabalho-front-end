@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+.banner {
+    background-color: rgb(143, 190, 134); 
+    color: white;
+    margin-top: 75px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#imgpequena {
+    height: 100px;
+    width: 100px;
+}
+
+#cp {
+    color: rgb(0, 0, 0); 
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: 900;
+}

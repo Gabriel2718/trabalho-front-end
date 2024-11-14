@@ -8,6 +8,8 @@
 
 # Descrição do Projeto
 
-
+# ✔️ Tecnologias Utilizadas:
+- ``HTML``
+- ``CSS``
 
 

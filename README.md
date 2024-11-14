@@ -12,3 +12,16 @@ Nosso projeto trata-se de um site estático desenvolvido na disciplina de Progra
 # ✔️ Tecnologias Utilizadas:
 - ``HTML``
 - ``CSS``
+
+# Estrutura do Projeto
+Os arquivos HTML estão localizados na pasta raíz do projeto e os arquivos CSS foram alocados em uma pasta de mesmo nome localizada na pasta raíz. Os arquivos de mídia utilizados utilizados no projeto, como imagens, vídeos e áudios foram divididos em pastas diferentes para cada tipo de mídia, armazenadas na pasta “assets”, também localizada na pasta raíz.
+
+<ul>
+  <li>(Arquivos HTML)</li>
+  <li>CSS</li>
+  <li type="square">  (Arquivos CSS)</li>
+  <li>assets</li>
+  <li>imagens</li>
+  <li type="square">  (Arquivos de Imagem)</li>
+  <li>...</li>
+</ul>

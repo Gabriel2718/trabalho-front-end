@@ -17,11 +17,11 @@ Nosso projeto trata-se de um site estático desenvolvido na disciplina de Progra
 Os arquivos HTML estão localizados na pasta raíz do projeto e os arquivos CSS foram alocados em uma pasta de mesmo nome localizada na pasta raíz. Os arquivos de mídia utilizados utilizados no projeto, como imagens, vídeos e áudios foram divididos em pastas diferentes para cada tipo de mídia, armazenadas na pasta “assets”, também localizada na pasta raíz.
 
 <ul type="none">
-  <li type="none">(Arquivos HTML)</li>
-  <li>CSS</li>
-  <li type="none">  (Arquivos CSS)</li>
-  <li>assets</li>
-  <li>imagens</li>
-  <li type="none">  (Arquivos de Imagem)</li>
-  <li>...</li>
+  <li>(Arquivos HTML)</li>
+  <li>``CSS``</li>
+  <li>(Arquivos CSS)</li>
+  <li>``assets``</li>
+  <li>``imagens``</li>
+  <li>(Arquivos de Imagem)</li>
+  <li>``...``</li>
 </ul>

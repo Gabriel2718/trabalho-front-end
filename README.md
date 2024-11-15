@@ -23,5 +23,5 @@ Os arquivos HTML estão localizados na pasta raíz do projeto e os arquivos CSS 
   <li>-assets</li>
   <li>&emsp;-imagens</li>
   <li>&emsp;&emsp;(Arquivos de Imagem)</li>
-  <li>...</li>
+  <li>&emsp;-...</li>
 </ul>

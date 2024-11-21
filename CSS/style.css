@@ -1,73 +1,28 @@
-*{
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-}
-
 header{
-
-    width: 100px;
-    background-color: rgb(143, 190, 134);
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo-imagem{
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    border-radius: 25px;    
-}
-
-.container_logo{
-    display: flex;
-    align-items: center;
-}
-
-.logo-texto{
-    margin-left: 20px;
-    color: white;
-}
-
-.menu li{
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.menu li a{
-    font-size: 24px;
-    text-decoration: none;
-    color:white;
-    Text-transform: uppercase;
-    padding: 10px 16px;
-}
-
-.menu li a:hover{
-    background-color: rgb(100 100 100 0.8);
-}
-
-body {
-    background-color: rgb(253, 253, 253);
-}
-
-.banner {
     background-color: rgb(143, 190, 134); 
-    color: white;
-    margin-top: 75px;
+}
+
+header .container-logo{
+    display: inline-block;
+}
+
+header nav{
+    display: inline-block;
+}
+
+header nav li{
+    display: inline-block;
+}
+
+.banner{
+    background-image: url(../assets/imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 200px;
+}
+
+h1{
     text-align: center;
-    padding: 100px 0;
-}
-
-#imgpequena {
-    height: 100px;
-    width: 100px;
-}
-
-#cp {
-    color: rgb(0, 0, 0); 
-    font-size: 100px;
-}
-
-.bold {
-    font-weight: 900;
+    font-size: 200%;
+    justify-content: center;
 }

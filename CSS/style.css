@@ -1,71 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*Geral*/
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
-#menu-h{
-    background-color: rgb(37, 37, 39);
+.overpass{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#menu-h ul {
-    max-width: 800px;
-    list-style: none;
-    padding: 0;
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-#menu-h ul li {
-    display: inline;
+h1{
+    text-align: center;
+    font-size: 300%;
+    justify-content: center;
+    font-weight: bold;
 }
 
-#menu-h ul li a {
-    color: #FFF;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .4s;
+h2, h3, h4{
+    font-weight: bold;   
 }
 
-#menu-h ul li a:hover {
-    background-color: rgb(143, 190, 134);
+h2{
+    font-size: 160%;  
+    margin: 1% 0 1% 0;
 }
 
-#menu-h ul li:last-child a {
-    float: right;
-    background-color: rgb(143, 190, 134);
+h3{
+    font-size: 140%;
+    margin: 4% 0 2% 5%;
 }
 
-.bold {
-    font-weight: 900;
+h4{
+    font-size: 120%;
+    margin: 2% 0 1% 0;
 }
+
+/*Cabeçalho (header)*/
 
 header {
     background-color: rgb(143, 190, 134);
 }
 
-header .container-logo{
-    display: inline-block;
-}
-
 header nav{
     display: inline-block;
+    background-color: rgb(37, 37, 39);
 }
 
 header nav li{
+    display: inline;
+}
+
+#sigin-login{
+    float: right;
+}
+
+header nav ul li a{
+    color: #FFF;
+    padding: 20px;
     display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(143, 190, 134);
 }
 
 .banner{
     background-image: url(../assets/imagens/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    padding-bottom: 200px;
+    padding: 12% 0 12% 0;
 }
 
-h1{
-    text-align: center;
-    font-size: 200%;
-    justify-content: center;
+/*Conteúdo (main)*/
+main{
+    margin: 0 6% 0 6%;
+}
+
+.introducao{
+    margin-bottom: 2%;
+}
+
+main p, main li{
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main p{
+    font-size: 110%;
+}
+
+main li{
+    font-size: 120%;
+}
+
+main ul{
+    margin-left: 5%;
+}
+
+main ul li{
+    list-style: disc;
 }

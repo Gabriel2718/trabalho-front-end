@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/cadastro.css">
+    <title>Login</title>
 </head>
 <body>
-    
+    <form>
+        <h1>Login</h1>
+
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="insira o e-mail utilizado no cadastro" required><br>
+
+        <label for="pwd">Senha</label><br>
+        <input type="password" id="pwd" name="pwd" required><br><br>
+
+        <input type="submit" value="Entrar">
+    </form>
 </body>
 </html>

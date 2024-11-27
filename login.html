@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/cadastro.css">
+    <link rel="stylesheet" href="./CSS/login.css">
     <title>Login</title>
 </head>
+
 <body>
-    <form>
-        <h1>Login</h1>
+    <div class="caixa_login">
+        <form action="">
+            <h1>Login</h1>
 
-        <label for="email">E-mail</label><br>
-        <input type="email" id="email" name="email" placeholder="insira o e-mail utilizado no cadastro" required><br>
+            <div class="caixa_text">
+                <span class="icone"><ion-icon name="mail"></ion-icon></span>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="email" placeholder="insira o e-mail utilizado no cadastro"
+                    required><br>
+            </div>
 
-        <label for="pwd">Senha</label><br>
-        <input type="password" id="pwd" name="pwd" required><br><br>
-
-        <input type="submit" value="Entrar">
+            <div class="caixa_text">
+            <span class="icone"><ion-icon name="lock-closed"></ion-icon></span>
+            <label for="pwd">Senha</label><br>
+            <input type="password" id="pwd" name="pwd" required><br><br>
+        </div>
+    <input type="submit" value="Entrar">
     </form>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>

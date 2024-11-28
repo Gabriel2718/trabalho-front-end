@@ -1,6 +1,6 @@
 /*Geral*/
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -51,16 +51,17 @@ header {
 }
 
 header nav{
-    display: inline-block;
     background-color: rgb(37, 37, 39);
+}
+
+.menu-navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header nav li{
     display: inline;
-}
-
-#sigin-login{
-    float: right;
 }
 
 header nav ul li a{
@@ -69,6 +70,10 @@ header nav ul li a{
     display: inline-block;
     text-decoration: none;
     transition: .4s;
+}
+
+header .icon{
+    justify-content: center;
 }
 
 header nav ul li a:hover {
@@ -110,4 +115,25 @@ main ul{
 
 main ul li{
     list-style: disc;
+}
+
+/*Rodapé (footer)*/
+footer{
+    background-color: rgb(143, 190, 134);
+    padding: 2% 5%;
+    margin-top: 2%
+}
+
+footer p{
+    line-height: 150%;
+    font-size: 110%;
+    padding-bottom: 1%;
+}
+
+footer a{
+    color: #FFF;
+}
+
+footer a:hover{
+    color: #b9ffbf
 }

@@ -146,3 +146,57 @@ footer a:hover{
     color: #4CAF50; 
     transform: scale(1.05); 
 }
+/* Estilo do rodapé */
+footer.footer-TechStonks {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+    font-size: 14px; /* Tamanho da fonte */
+    text-align: center; /* Alinha o conteúdo no centro */
+    font-family: 'Arial', sans-serif; /* Tipografia simples e limpa */
+}
+
+/* Estilo do conteúdo do rodapé */
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espaço abaixo do conteúdo */
+}
+
+/* Estilo das informações de contato */
+.footer-contact p {
+    margin: 5px 0; /* Espaçamento entre as linhas */
+    color: #fff; /* Cor do texto branco */
+}
+
+.footer-contact a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #fff; /* Cor do link branco */
+    transition: color 0.3s ease; /* Transição suave para mudança de cor */
+}
+
+.footer-contact a:hover {
+    color: #f4a261; /* Cor quente ao passar o mouse */
+}
+
+/* Estilo das redes sociais */
+.footer-social a {
+    margin: 0 15px; /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado */
+    color: #fff; /* Cor do link branco */
+    font-weight: bold; /* Destaca os links */
+    transition: color 0.3s ease; /* Transição suave para mudança de cor */
+}
+
+.footer-social a:hover {
+    color: #f4a261; /* Cor quente ao passar o mouse */
+}
+
+/* Estilo da área de copyright */
+.footer-bottom {
+    font-size: 12px; /* Tamanho de fonte menor */
+    color: #aaa; /* Cor mais suave para o copyright */
+}
+

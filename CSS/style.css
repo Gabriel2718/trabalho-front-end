@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.material-icons{
+    vertical-align: middle;
+    font-size: 1em;
+}
+
 .overpass{
     font-family: "Overpass", sans-serif;
     font-optical-sizing: auto;
@@ -50,14 +55,15 @@ header {
     background-color: rgb(143, 190, 134);
 }
 
-header nav{
-    background-color: rgb(37, 37, 39);
-}
-
 .menu-navegacao{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    max-height: 55px;
+}
+
+header nav{
+    background-color: rgb(37, 37, 39);
 }
 
 header nav li{
@@ -70,6 +76,12 @@ header nav ul li a{
     display: inline-block;
     text-decoration: none;
     transition: .4s;
+    align-items: center;
+    max-height: 55px;
+}
+
+.info, .login-cadastro{
+    display: flex;
 }
 
 header .icon{
@@ -115,6 +127,10 @@ main ul{
 
 main ul li{
     list-style: disc;
+}
+
+main img{
+    max-width: 45%;
 }
 
 /*Rodapé (footer)*/

@@ -137,6 +137,53 @@ header nav ul li a:hover {
     background-color: rgb(143, 190, 134);
 }
 
+.paragrafo-DE {
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(167, 204, 158);
+    padding: 15px;
+    margin-bottom: 30px
+}
+
+.dengue {
+    border-width: 50px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.febreamarela {    
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.doencachagas {
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.tuberculose {
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.hanseniase{
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    margin-bottom: 30px;
+}
 
 /*Conteúdo (main)*/
 main{

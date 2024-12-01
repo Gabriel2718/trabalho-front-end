@@ -52,6 +52,7 @@ h4{
     margin: 2% 0 1% 0;
 }
 
+
 /*Cabeçalho (header)*/
 
 header {
@@ -199,7 +200,7 @@ footer a:hover{
 }
 /* Estilo do rodapé */
 footer.footer-TechStonks {
-    background-color: #000; /* Fundo preto */
+    background-color: rgb(37, 37, 39); /* Fundo preto */
     color: #fff; /* Texto branco */
     padding: 20px 0; /* Espaçamento superior e inferior */
     font-size: 14px; /* Tamanho da fonte */
@@ -242,7 +243,7 @@ footer.footer-TechStonks {
 }
 
 .footer-social a:hover {
-    color: #f4a261; /* Cor quente ao passar o mouse */
+    color: #b9ffbf; /* Cor tema ao passar o mouse */
 }
 
 /* Estilo da área de copyright */

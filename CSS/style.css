@@ -97,20 +97,19 @@ header {
 .imglogo img{
     padding-left: 3%;
     border: 0px solid;
-    max-width: 50%;
+    min-width: auto;
+    max-width: 80%;
     height: auto;
     position: absolute;
     top:120px;
-    display: flex;
-    flex-shrink: 1;
 }
 
 .menu-navegacao{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-height: 55px;
-    flex-wrap: nowrap;
+    max-height: auto;
+    flex-wrap: wrap;
     flex-shrink: 1;
 }
 

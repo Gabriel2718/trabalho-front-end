@@ -1,0 +1,233 @@
+/*Geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-icons{
+    vertical-align: middle;
+    font-size: 1em;
+}
+
+.overpass{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 40px;  
+    text-indent: 3%;
+    margin: 1% 0 1% 0;
+    font-weight: bold;   
+}
+
+
+/*Cabeçalho (header)*/
+
+header {
+    background-color: rgb(143, 190, 134);
+} 
+
+/* banner */
+.banner {
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../assets/imagens/contato.jpg);
+background-position: center;
+background-size: cover;
+height: 75vh;
+}
+
+.btexto {
+    font-size: 65px;
+    color: white;
+    padding-left: 8%;
+    padding-top: 270px;
+    padding-bottom: 10px;
+    font-style: bold;
+    font-weight: 1000;
+}
+
+.btexto2 {
+    font-size: 28px;
+    color: white;
+    padding-left: 8%;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    font-style: normal;
+
+}
+
+.texto3 {
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    padding-left: 3%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-style: normal;
+}
+
+.imglogo {
+    padding-left: 3%;
+    border: 0px solid;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top:120px;
+}
+
+.menu-navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 55px;
+}
+
+header nav{
+    background-color: rgb(37, 37, 39);
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav ul li a{
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+    align-items: center;
+    max-height: 55px;
+}
+
+.info, .login-cadastro{
+    display: flex;
+}
+
+header .icon{
+    justify-content: center;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(143, 190, 134);
+}
+
+
+/*Conteúdo (main)*/
+main{
+    margin: 0 6% 0 6%;
+}
+
+.introducao{
+    margin-bottom: 2%;
+}
+
+main p, main li{
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main p{
+    font-size: 110%;
+}
+
+main li{
+    font-size: 120%;
+}
+
+main ul{
+    margin-left: 5%;
+}
+
+main ul li{
+    list-style: disc;
+}
+
+main img{
+    max-width: 45%;
+}
+
+/*Rodapé (footer)*/
+footer{
+    background-color: rgb(143, 190, 134);
+    padding: 2% 5%;
+    margin-top: 2%
+}
+
+footer p{
+    line-height: 150%;
+    font-size: 110%;
+    padding-bottom: 1%;
+}
+
+footer a{
+    color: #FFF;
+}
+
+footer a:hover{
+    color: #b9ffbf;
+}
+
+/* Estilo do rodapé */
+footer.footer-TechStonks {
+    background-color: rgb(37, 37, 39); /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+    font-size: 14px; /* Tamanho da fonte */
+    text-align: center; /* Alinha o conteúdo no centro */
+    font-family: 'Arial', sans-serif; /* Tipografia simples e limpa */
+}
+
+/* Estilo do conteúdo do rodapé */
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Espaço abaixo do conteúdo */
+}
+
+/* Estilo das informações de contato */
+.footer-contact p {
+    margin: 5px 0; /* Espaçamento entre as linhas */
+    color: #fff; /* Cor do texto branco */
+}
+
+.footer-contact a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #fff; /* Cor do link branco */
+    transition: color 0.3s ease; /* Transição suave para mudança de cor */
+}
+
+.footer-contact a:hover {
+    color: #f4a261; /* Cor quente ao passar o mouse */
+}
+
+/* Estilo das redes sociais */
+.footer-social a {
+    margin: 0 15px; /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado */
+    color: #fff; /* Cor do link branco */
+    font-weight: bold; /* Destaca os links */
+    transition: color 0.3s ease; /* Transição suave para mudança de cor */
+}
+
+.footer-social a:hover {
+    color: #b9ffbf; /* Cor tema ao passar o mouse */
+}
+
+/* Estilo da área de copyright */
+.footer-bottom {
+    font-size: 12px; /* Tamanho de fonte menor */
+    color: #aaa; /* Cor mais suave para o copyright */
+}
+

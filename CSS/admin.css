@@ -62,46 +62,6 @@ h5{
 
 header {
     background-color: rgb(37, 37, 39);
-} 
-
-/* banner */
-.banner {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../assets/imagens/banner.png);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    padding-bottom: 8%;
-}
-
-.btexto {
-    font-size: 3.5rem;
-    color: white;
-    padding-left: 8%;
-    padding-top: 270px;
-    padding-bottom: 10px;
-    font-style: bold;
-    font-weight: 1000;
-}
-
-.btexto2 {
-    font-size: 28px;
-    color: white;
-    padding-left: 8%;
-    padding-top: 30px;
-    padding-bottom: 1px;
-    font-style: normal;
-}
-
-.imglogo img{
-    padding-left: 3%;
-    border: 0px solid;
-    min-width: auto;
-    max-width: 80%;
-    height: auto;
-    position: absolute;
-    top:120px;
 }
 
 .menu-navegacao{
@@ -145,90 +105,6 @@ header .icon{
 
 header nav ul li a:hover {
     background-color: rgb(143, 190, 134);
-}
-
-
-
-/*Conteúdo (main)*/
-main{
-    margin: 0 6% 0 6%;
-}
-
-.introducao{
-    margin-bottom: 2%;
-}
-
-main p, main li{
-    line-height: 1.5em;
-    text-align: justify;
-}
-
-main p{
-    font-size: 110%;
-}
-
-main li{
-    font-size: 120%;
-}
-
-main ul{
-    margin-left: 5%;
-}
-
-main ul li{
-    list-style: disc;
-}
-
-main img{
-    max-width: 45%;
-}
-
-.paragrafo-DE {
-    border-width: 5px;
-    border-radius: 10px;
-    background-color: rgb(167, 204, 158);
-    padding: 15px;
-    margin-bottom: 30px
-}
-
-.dengue {
-    border-width: 50px;
-    border-radius: 10px;
-    background-color: rgb(247, 247, 247);
-    padding: 50px;
-    margin-bottom: 30px;
-}
-
-.febreamarela {    
-    border-width: 5px;
-    border-radius: 10px;
-    background-color: rgb(247, 247, 247);
-    padding: 50px;
-    margin-bottom: 30px;
-}
-
-.doencachagas {
-    border-width: 5px;
-    border-radius: 10px;
-    background-color: rgb(247, 247, 247);
-    padding: 50px;
-    margin-bottom: 30px;
-}
-
-.tuberculose {
-    border-width: 5px;
-    border-radius: 10px;
-    background-color: rgb(247, 247, 247);
-    padding: 50px;
-    margin-bottom: 30px;
-}
-
-.hanseniase{
-    border-width: 5px;
-    border-radius: 10px;
-    background-color: rgb(247, 247, 247);
-    padding: 50px;
-    margin-bottom: 30px;
 }
 
 
@@ -314,4 +190,3 @@ footer.footer-TechStonks {
     font-size: 12px; /* Tamanho de fonte menor */
     color: #aaa; /* Cor mais suave para o copyright */
 }
-

@@ -21,40 +21,14 @@
 .roboto{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
 }
 
 h1{
     text-indent: 5%;
-    text-align: 0;
-    font-size: 300%;
+    text-align: center;
+    font-size: 200%;
     justify-content: center;
     font-weight: bold;
-    color: #ffff;
-}
-
-h2, h3, h4, h5{
-    font-weight: bold;   
-}
-
-h2{
-    font-size: 220%;  
-    margin: 1% 0 1% 0;
-}
-
-h3{
-    font-size: 170%;
-    margin: 4% 0 2% 3%;
-}
-
-h4{
-    font-size: 120%;
-    margin: 2% 0 1% 0;
-}
-
-h5{
-    font-size: 120%;
-    margin: 2% 0 1% 0;
 }
 
 
@@ -105,6 +79,57 @@ header .icon{
 
 header nav ul li a:hover {
     background-color: rgb(143, 190, 134);
+}
+
+
+/*Principal (main)*/
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+#caixa-form-cadastro{
+    align-self: center;
+    width: 50vw;
+}
+
+#form-cadastro{
+    display: flex;
+    flex-direction: column;
+    border-width: 3px;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+.elemento-form-cadastro, #form-cadastro h1, #BTcadastrar{
+    margin: 2% 0;
+}
+
+.elemento-form-cadastro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.elemento-form-cadastro label{
+    font-size: 1.5rem;
+}
+
+.elemento-form-cadastro input{
+    width: 80%;
+}
+
+.elemento-form-cadastro, #form-cadastro h1{
+    padding: 1% 0;
+    width: 90%;
+}
+
+#form-cadastro #BTcadastrar{
+    width: 25%;
+    font-size: 1.2rem;
 }
 
 

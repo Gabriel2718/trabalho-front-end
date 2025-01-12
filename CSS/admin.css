@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .material-icons{
     vertical-align: middle;
     font-size: 1em;
@@ -87,11 +93,12 @@ main{
     display: flex;
     flex-direction: column;
     margin: 5% 0;
+    flex: 1;
 }
 
-#caixa-form-cadastro{
+section{
     align-self: center;
-    width: 50vw;
+    width: 60vw;
 }
 
 #form-cadastro{
@@ -105,7 +112,7 @@ main{
     
 }
 
-.elemento-form-cadastro, #form-cadastro h1, #BTcadastrar{
+.elemento-form-cadastro, #form-cadastro h1{
     margin: 2% 0;
 }
 
@@ -115,7 +122,7 @@ main{
 }
 
 .elemento-form-cadastro label{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .elemento-form-cadastro input{
@@ -127,9 +134,97 @@ main{
     width: 90%;
 }
 
-#form-cadastro #BTcadastrar{
+#user, #email{
+    padding-left: 3%;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+#BTcadastrar{
+    margin: 2% 0 4% 0;
     width: 25%;
-    font-size: 1.2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: solid 2px #000;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+#BTcadastrar:hover{
+    background-color: rgb(75, 55, 255);
+    color: #FFF;
+    cursor: pointer;
+}
+
+#filtro{
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    border: solid 3px #000; 
+    border-radius: 10px;
+}
+
+#barra-pesquisa{
+    width: 70%;
+    padding-left: 3%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+#barra-pesquisa:focus{
+    border: none;
+    box-shadow: none;
+}
+
+#filtrar-user, #filtrar-email, #BTpesquisar{
+    border: none;
+    flex: 1;
+    transition: .2s;
+}
+
+#filtrar-user{
+    background-color: #aaa;
+    color: #FFF;
+}
+
+#filtrar-user:hover{
+    cursor: pointer;
+}
+
+#filtrar-email{
+    background-color: #aaa;
+    color: #FFF;
+}
+
+#filtrar-email:hover{
+    cursor: pointer;
+}
+
+#BTpesquisar{
+    background-color: rgb(46, 23, 255);
+    color: #FFF;
+    border-radius: 0 5px 5px 0;
+}
+
+#BTpesquisar:hover{
+    background-color: rgb(124, 23, 255);
+    cursor: pointer;
+}
+
+#lista-usuarios{
+    margin-top: 10%;
+    line-height: 400%;
+}
+
+#lista-usuarios li{
+    margin: 1% 0;
+    font-size: 1.5rem;
+    color: #FFF;
+    background-color: rgb(46, 23, 255);
+    padding-left: 3%;
+    border-radius: 10px;
 }
 
 
@@ -137,7 +232,8 @@ main{
 footer{
     background-color: rgb(143, 190, 134);
     padding: 2% 5%;
-    margin-top: 2%
+    margin-top: 2%;
+    justify-self: end;
 }
 
 footer p{

@@ -39,21 +39,21 @@
                 <h1 class="roboto">Cadastrar usuário</h1>
                 <div class="elemento-form-cadastro">
                     <label for="user">Usuário</label>
-                    <input type="text" id="user" name="user">
+                    <input type="text" id="user" name="user" required>
                 </div>
                 <div class="elemento-form-cadastro">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <input type="submit" id="BTcadastrar" value="Cadastrar">
             </form>
         </section>
 
         <section id="filtro">
-            <input type="text" id="barra-pesquisa">
-            <button type="button" id="filtrar-user"><span class="material-icons">person</span></button>
-            <button type="button" id="filtrar-email"><span class="material-icons">email</span></button>
-            <button type="button" id="BTpesquisar"><span class="material-icons">search</span></button>
+            <input type="text" id="barra-pesquisa" placeholder="Filtrar...">
+            <button type="button" id="filtrar-user" onclick="trocarTipoFiltro(1)"><span class="material-icons">person</span></button>
+            <button type="button" id="filtrar-email" onclick="trocarTipoFiltro(2)"><span class="material-icons">email</span></button>
+            <button type="button" id="BTpesquisar" onclick="filtrar()"><span class="material-icons">search</span></button>
         </section>
 
         <section>

@@ -127,6 +127,7 @@ section{
 
 .elemento-form-cadastro input{
     width: 80%;
+    font-size: 1.4rem;
 }
 
 .elemento-form-cadastro, #form-cadastro h1{
@@ -157,7 +158,7 @@ section{
 }
 
 #filtro{
-    margin: 3% 0;
+    margin: 3% 0 4% 0;
     display: flex;
     justify-content: space-between;
     height: 3.5rem;
@@ -171,6 +172,7 @@ section{
     border: none;
     border-radius: 5px 0 0 5px;
     outline: none;
+    font-size: 2rem;
 }
 
 #barra-pesquisa:focus{
@@ -214,7 +216,6 @@ section{
 }
 
 #lista-usuarios{
-    margin-top: 10%;
     line-height: 400%;
 }
 

@@ -50,10 +50,13 @@
         </section>
 
         <section id="filtro">
-            <input type="text" id="barra-pesquisa" placeholder="Filtrar...">
-            <button type="button" id="filtrar-user" onclick="trocarTipoFiltro(1)"><span class="material-icons">person</span></button>
-            <button type="button" id="filtrar-email" onclick="trocarTipoFiltro(2)"><span class="material-icons">email</span></button>
-            <button type="button" id="BTpesquisar" onclick="filtrar()"><span class="material-icons">search</span></button>
+            <div id="filtro-barra">
+                <input type="text" id="barra-pesquisa" placeholder="Filtrar...">
+                <button type="button" id="filtrar-user" onclick="trocarTipoFiltro(1)"><span class="material-icons">person</span></button>
+                <button type="button" id="filtrar-email" onclick="trocarTipoFiltro(2)"><span class="material-icons">email</span></button>
+                <button type="submit" id="BTpesquisar" onclick="filtrar()"><span class="material-icons">search</span></button>
+            </div>
+            <button type="button" id="BTrecarregar" onclick="atualizarLista()"><span class="material-icons">refresh</span></button>
         </section>
 
         <section>

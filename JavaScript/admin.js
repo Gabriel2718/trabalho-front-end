@@ -21,9 +21,19 @@ function atualizarLista(){
 
     for(let i = 0; i < localStorage.length; i++){
         const usuario = document.createElement("li");
-        usuario.textContent = localStorage.getItem(localStorage.key(i)) + " - " + localStorage.key(i);
+        usuario.innerHTML = `
+            <p>
+                ${localStorage.key(i)} - ${localStorage.getItem(localStorage.key(i))}
+            </p>
+            <button class="BTexcluir" onclick="excluirUsuario('${localStorage.key(i)}')">
+                <span class="material-icons">delete</span>
+            </button>
+        `;
         listaUsuarios.appendChild(usuario);
     }
+    document.getElementById("barra-pesquisa").value = "";
+
+    mostrarEsconderFiltro();
 }
 
 function trocarTipoFiltro(tipo) {
@@ -65,4 +75,18 @@ function filtrar(){
             }
             break;
     }
+}
+
+function mostrarEsconderFiltro(){
+    const filtro = document.getElementById("filtro");
+    if(localStorage.length == 0){
+        filtro.style.visibility = "hidden";
+    }else{
+        filtro.style.visibility = "visible";
+    }
+}
+
+function excluirUsuario(email){
+    localStorage.removeItem(email);
+    atualizarLista();
 }

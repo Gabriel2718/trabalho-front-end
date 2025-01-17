@@ -158,7 +158,12 @@ section{
 }
 
 #filtro{
-    margin: 3% 0 4% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#filtro-barra{
+    margin: 3% 0 2% 0;
     display: flex;
     justify-content: space-between;
     height: 3.5rem;
@@ -191,16 +196,12 @@ section{
     color: #FFF;
 }
 
-#filtrar-user:hover{
-    cursor: pointer;
-}
-
 #filtrar-email{
     background-color: #aaa;
     color: #FFF;
 }
 
-#filtrar-email:hover{
+#filtrar-email:hover, #filtrar-user:hover{
     cursor: pointer;
 }
 
@@ -215,17 +216,55 @@ section{
     cursor: pointer;
 }
 
+#BTrecarregar{
+    background-color: rgb(46, 23, 255);
+    color: #FFF;
+    width: 3vw;
+    height: 3vw;
+    border: solid 1px #000;
+    border-radius: 50%;
+    align-self: flex-start;
+    margin: 2% 0;
+    transition: .2s;
+}
+
+#BTrecarregar:hover{
+    cursor: pointer;
+    background-color: rgb(124, 23, 255);
+}
+
 #lista-usuarios{
     line-height: 400%;
 }
 
 #lista-usuarios li{
-    margin: 1% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lista-usuarios li p{
+    margin: 2% 0;
     font-size: 1.5rem;
     color: #FFF;
     background-color: rgb(46, 23, 255);
     padding-left: 3%;
     border-radius: 10px;
+    width: 85%;
+}
+
+#lista-usuarios li .BTexcluir{
+    margin: 2% 0;
+    border: solid 1px #000;
+    border-radius: 10px;
+    background-color: rgb(253, 59, 59);
+    color: #FFF;
+    width: 10%;
+    transition: .2s;
+}
+
+#lista-usuarios li .BTexcluir:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
 }
 
 

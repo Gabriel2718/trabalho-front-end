@@ -267,6 +267,22 @@ section{
     background-color: rgb(255, 0, 0);
 }
 
+#BTapagar-todos{
+    border: solid 1px #000;
+    border-radius: 10px;
+    background-color: rgb(253, 59, 59);color: #FFF;
+    transition: .2s;
+    font-size: 1.25rem;
+    height: 3.5rem;
+    width: 20%;
+    margin: 4% 0;
+}
+
+#BTapagar-todos:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+}
+
 
 /*Rodapé (footer)*/
 footer{
